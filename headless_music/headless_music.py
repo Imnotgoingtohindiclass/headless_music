@@ -214,7 +214,8 @@ def spotify_setup():
         try:
             sp_client = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
                 client_id=config['SPOTIFY_CLIENT_ID'],
-                client_secret=config['SPOTIFY_CLIENT_SECRET']
+                client_secret=config['SPOTIFY_CLIENT_SECRET'],
+                cache_handler=cache_handler
             ))
             logging.info("Spotify client initialized successfully")
         except Exception as e:
