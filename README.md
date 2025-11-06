@@ -59,7 +59,7 @@ On first launch a setup wizard will walk you through adding your Spotify API cre
 
 ## Configuration
 
-* Spotify API credentials (Client ID, Client Secret, Redirect URI) are required for full functionality.
+* Spotify API credentials (Client ID, Client Secret) are required for full functionality.
 * The configuration wizard writes credentials to a user config file (see `config` in repo for format).
 * `mpv` path and additional mpv options can be set in the config.
 
