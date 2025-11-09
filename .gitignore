@@ -2,3 +2,4 @@ dist/*
 .venv/*
 headless_music.egg-info/*
 .DS_Store
+__pycache__
