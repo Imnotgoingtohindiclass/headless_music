@@ -90,7 +90,7 @@ def setup_wizard():
 
     if source_choice == "spotify":
         console.print("   Enter your Spotify playlist URL or URI", style="dim")
-        console.print("   Example: https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M",
+        console.print("   Example: https://open.spotify.com/playlist/...",
                       style="dim")
         playlist_url = Prompt.ask("   Spotify Playlist URL/URI")
     else:
